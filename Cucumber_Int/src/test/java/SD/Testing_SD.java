@@ -27,7 +27,7 @@ public class Testing_SD {
 	public void browser_is_open() {
 		System.out.println("Inside Step- Browser is open");
 		String ProjectPath = System.getProperty("user.dir");
-		System.out.println("Project path is:" + ProjectPath);
+		System.out.println("Project path is mentioned" + ProjectPath);
 
 		System.setProperty("webdriver.chrome.driver", ProjectPath + "//src/test/resources/Drivers/chromedriver.exe");
 		driver = new ChromeDriver();
